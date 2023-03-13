@@ -1,7 +1,7 @@
 public abstract class Dancer {
-    String name;
-    String sex;
-    int age;
+    String name; // это имя танцора
+    String sex; // пол танцора
+    int age; // его возраст
 
     public void dance() {
         System.out.println(toString() + " двигается под музыку...");
@@ -16,10 +16,10 @@ public abstract class Dancer {
 //   toString для Dancer
     @Override
     public String toString() {
-        return "Dancer " +
-                "name='" + name + '\'' +
-                ", sex='" + sex + '\'' +
-                ", age=" + age +
+        return "Танцор " +
+                "имя ='" + name + '\'' +
+                ", возраст ='" + age + '\'' +
+                ", пол ='" + sex + '\'' +
                 ' ';
     }
 }

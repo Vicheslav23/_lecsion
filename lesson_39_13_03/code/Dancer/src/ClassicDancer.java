@@ -1,5 +1,6 @@
 public class ClassicDancer extends Dancer {
 
+    //    прописывается как в TwistDancer
     public ClassicDancer(String name, String sex, int age) {
         super(name, sex, age);
     }

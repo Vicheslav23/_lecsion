@@ -4,6 +4,7 @@ public abstract class Shape {
     public Shape(String name) {
         this.name = name;
     }
+    // этот метод вычисляет площадь
     public double square() {
         return 0;
     }

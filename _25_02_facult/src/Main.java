@@ -3,13 +3,13 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
 
-        /**
+        /*
          * @author Andrej Reutow
          * created on 25.02.2023
          */
 //todo 1 Ввод с клавиатуры
 //todo 2 Проверить можно ли разместить указанное количесво кораблей на карте
-        public class BattleshipGame {
+        class BattleshipGame {
             private static final int FIELD_SIZE = 3;
             private static final int SHIPS = 4;
 

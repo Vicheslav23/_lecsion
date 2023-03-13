@@ -25,6 +25,11 @@ public class Main {
 
         System.out.println(dancerList);
 
+//        for (int i = 0; i < dancerList.size(); i++) {
+
+//            System.out.println(dancerList.get(i));
+//        }
+
 
 
     }

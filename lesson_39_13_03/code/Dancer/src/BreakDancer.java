@@ -1,5 +1,7 @@
 public class BreakDancer extends Dancer{
 
+//    прописывается как в TwistDancer
+
     public BreakDancer(String name, String sex, int age) {
         super(name, sex, age);
     }

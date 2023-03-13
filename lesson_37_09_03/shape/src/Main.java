@@ -6,31 +6,30 @@ public class Main {
 
         // круг
         double r = 10;
-        Circle o1 = new Circle(r);
+        Circle o1 = new Circle("", r);
         double s_circle = o1.square(); // вызываем метод для расчета площади
-        System.out.println("Площадь круга: " + s_circle);
+        System.out.println("Площадь круга: S = " + s_circle);
 
         // прямоугольник
-        double a = 10;
-        double b = 20;
+        double a = 15;
+        double b = 30;
 
-        Rectangle rec1 = new Rectangle("rectangle", a, b);
+        Rectangle rec1 = new Rectangle("rectangle",a, b);
         double s_rectangle = rec1.square(); // вызываем метод для расчета площади
-        System.out.println("Площадь круга :" + s_rectangle);
+        System.out.println("Площадь прямоугольника: S = " + s_rectangle);
 
         // треугольник
-        double width = 100;
-        double h = 200;
+        double width = 10;
+        double h = 20;
 
         Triangle tr1 = new Triangle("triangle", width, h);
         double s_tr = tr1.square();
-        System.out.println("Площадь треугольника:" + s_tr);
+        System.out.println("Площадь треугольника: S = " + s_tr);
 
 
         // трапеция
-        Trapezoid trap1 = new Trapezoid("", 10, 30, 20);
+        Trapezoid trap1 = new Trapezoid("trapezoid", 10, 30, 20);
         double s_trap = trap1.square();
-        System.out.println("Площадь тррапеции:" + s_trap);
-
+        System.out.println("Площадь трапеции: S = " + s_trap);
     }
 }
