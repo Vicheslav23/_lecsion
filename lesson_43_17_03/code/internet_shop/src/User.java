@@ -6,15 +6,26 @@ public class User {
     Basket basket;
 
     // создали конструктор
-    public User(String login, int password) {
+
+    public User(String login, int password, Basket basket) {
         this.login = login;
         this.password = password;
-
+        this.basket = basket;
     }
-    // метод, который связывает покупателя и корзину
+
+ /*   // метод, который связывает покупателя и корзину
     public void go (Basket basket) {
         this.basket = basket;
         this.basket.setUser(this);
+    }*/
+    // создали toString
+    @Override
+    public String toString() {
+        return "Покупатель: " +
+                "login = " + login +
+                ", password = " + password +
+                ", Ваша корзина: " + basket +
+                ' ';
     }
     // создали геттер и сеттер
 

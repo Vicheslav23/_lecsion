@@ -11,6 +11,8 @@ public class Product {
         this.rating = rating;
     }
     // создали equals и hashCode через Generate => equals() and hashCode()
+    // переопределение метода сравнения объектов в классе Product
+    // по совпадению названияи стоимости
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -31,11 +33,11 @@ public class Product {
 // создали toString
     @Override
     public String toString() {
-        return "Product{" +
-                "name='" + name + '\'' +
-                ", price=" + price +
-                ", rating=" + rating +
-                '}';
+        return "Товар - " +
+                "наименование: " + name +
+                ", цена: " + price +
+                ", рейтинг: " + rating +
+                ' ';
       }
       // создали геттер и сеттер
     public String getName() {

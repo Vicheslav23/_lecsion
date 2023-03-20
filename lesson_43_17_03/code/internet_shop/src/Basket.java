@@ -2,18 +2,33 @@ import java.util.ArrayList;
 
 public class Basket { // класс Basket (список купленных товаров)
 
+    ArrayList products;
+
 //    Создать класс Basket, содержащий массив купленных товаров (ArrayList).
-    String name;
-    int price;
-    public User user;
+//    String name;
+//    int price;
+//    public User user;
 
     // создали конструктор
-    public Basket(String name, int price) {
-        this.name = name;
-        this.price = price;
+
+    public Basket(ArrayList products) {
+        this.products = products;
     }
+
+    /*    public Basket(String name, int price) {
+            this.name = name;
+            this.price = price;
+        }*/
     // создали toString
+
     @Override
+    public String toString() {
+        return " " +
+                products +
+                ' ';
+    }
+
+/*    @Override
     public String toString() {
         return "Basket{" +
                 "name='" + name + '\'' +
@@ -43,5 +58,5 @@ public class Basket { // класс Basket (список купленных то
     }
     public void setUser(User user) {
         this.user = user;
-    }
+    }*/
   }
