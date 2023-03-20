@@ -28,7 +28,9 @@ public class Money {
     }
 
     // переопределяение метода equals
-    @Override
+
+    //    первый вариант
+   /* @Override
     public boolean equals(Object other) {
         if (this == other) {
             return true;
@@ -37,13 +39,14 @@ public class Money {
             return false;
         }
         return amount == money.amount && currency.equalsIgnoreCase(money.currency);
-    }
-   /* @Override
+    }*/
+//    второй вариант
+    @Override
     public boolean equals(Object obj) {
-        if (obj == null || this.getClass() != obj.getClass()) { // если объект obj является экземпляром класса Human
+        if (obj == null || this.getClass() != obj.getClass()) { // если объект obj является экземпляром класса Money
             return false;
         }
         Money that = (Money) obj;
         return this.amount == that.amount && this.currency.equalsIgnoreCase(that.currency);
-    }*/
+    }
 }

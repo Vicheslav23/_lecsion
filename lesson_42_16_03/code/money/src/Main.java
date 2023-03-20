@@ -3,7 +3,7 @@ public class Main {
 
         System.out.println("Сравнение для класса Money");
 
-        Money m1 = new Money(1000,"usd");
+        Money m1 = new Money(100,"usd");
         m1.toString();
         System.out.println(m1);
 
