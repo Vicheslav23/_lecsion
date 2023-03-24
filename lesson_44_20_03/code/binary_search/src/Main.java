@@ -12,31 +12,35 @@ public class Main {
         // ключевой алгоритм - поделить массив пополам и понять, в какой половинке искомый элемент
         // продолжать,пока не будет найден искомый элемент массива или не закончится массив
 
-        int[] array = {3, 5, 19, 23, 33, 46, 51, 64, 85, 99};
-        int lenght = array.length;
-        System.out.println("Длина массива: " + lenght);
+        int[] array = {3, 5, 19, 22, 33, 46, 51, 64, 85, 99}; // массив должен быть отсортирован от меньшего к большему
+        int lenght = array.length; // длина массива
+        System.out.println("Длина массива: " + lenght); // вывод на печать
 
-        Scanner sc = new Scanner(System.in); // включили сканер для чтения клавиатуры
-        System.out.println("Введите искомый элемент массива: "); // Приглашение пользователю
-        int element = sc.nextInt();
-        System.out.println("Ищем элемент " + element + " в массиве");
+        Scanner sc = new Scanner(System.in); // включили сканер для приема значений с клавиатуры
+        System.out.println("Ввведите интересующее вас число в массиве: "); // приглашение пользователю
+        int element = sc.nextInt(); // считываем введенное число
+        System.out.println("Ищем элемент " + element + " в массиве."); // печать на экран
+
         // задаем начальные условия
-        boolean hasElement = false;  // логическая переменная, отвечает за найден или не найден элемент массива
+        boolean hasElement = false; // это результат поиска
 
-        int left = 0; // индекс левого элемента массива
-        int right = array.length - 1; // индекс правого элемнта массива
-        int middle = left + (right - left) / 2; // индекс середины между левым и правым элементом
+        int left = 0; // это левый конец массива (индекс)
+        int right = lenght - 1; // это правый конец массива (индекс)
+        int middle = left + (right - left)/2; // это индекс середины массива
 
-        while (left <= right) { // выполняем цикл, пока левый индекс меньше или равен правого
-            if (element < array[middle]) { // если элемент в левой половине массива
-                right = middle - 1; // переносим правый конец за середину
-            } else if (element > array[middle]) {
-                left = middle + 1; // переносим левый за середину
+        while (left <= right) { // главное уловие ЦИКЛА
+            if (element < array[middle] ) { // если искомый элемент в левой половине
+                right = middle - 1; // правый конец массива (индекс) переносим в середину
+
+            } else if (element > array[middle] ) { // если искомый элемекнт в правой половине
+                left = middle + 1; // левый конец массива (индекс) переносим в середину
+
             } else {
                 hasElement = true;
                 break;
             }
-            middle = left + (right - left) / 2; // вычисляем новую середину
+
+            middle = left + (right - left)/2; // вычисляем новую середину
         }
 
         if (hasElement) {
