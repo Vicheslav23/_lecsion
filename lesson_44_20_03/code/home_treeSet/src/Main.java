@@ -38,22 +38,22 @@ public class Main {
 //Тюрингия
 
         TreeSet land = new TreeSet<>();
-        land.add("Гессен");
-        land.add("Саксония-Ангальт");
-        land.add("Нижняя Саксония");
-        land.add("Гамбург");
-        land.add("Тюрингия");
-        land.add("Северный Рейн");
-        land.add("Саксония");
-        land.add("Рейн-ланд-Пфальц");
-        land.add("Мекленбург");
-        land.add("Баден - Вюртенберг");
-        land.add("Саар");
-        land.add("Шлейвиг");
-        land.add("Бремен");
-        land.add("Бавария");
-        land.add("Берлин");
-        land.add("Брандербург");
+        land.add("Гессен \n");
+        land.add("Саксония-Ангальт \n");
+        land.add("Нижняя Саксония \n");
+        land.add("Гамбург \n");
+        land.add("Тюрингия \n");
+        land.add("Северный Рейн \n");
+        land.add("Саксония \n");
+        land.add("Рейн-ланд-Пфальц \n");
+        land.add("Мекленбург \n");
+        land.add("Баден - Вюртенберг \n");
+        land.add("Саар \n");
+        land.add("Шлейвиг \n");
+        land.add("Бремен \n");
+        land.add("Бавария\n");
+        land.add("Берлин \n");
+        land.add("Брандербург \n");
 
         System.out.println(land);
         System.out.println();
