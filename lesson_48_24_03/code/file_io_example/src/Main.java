@@ -48,7 +48,7 @@ public class Main {
         }
     }
 
-    private static String readDataFromFile(String path, String fileName, ) {
+    private static String readDataFromFile(String path, String fileName) {
         String data = "";
         try {
             File myFile = new File(path + fileName);

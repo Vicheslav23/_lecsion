@@ -1,6 +1,6 @@
 import javax.swing.*;
 public class Simple {
-//    ______________________________________________
+//------------------------------------------------------------
     JFrame f;
     Simple(){
         f=new JFrame();//creating instance of JFrame
