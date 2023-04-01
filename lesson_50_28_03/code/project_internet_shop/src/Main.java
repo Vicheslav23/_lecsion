@@ -61,6 +61,7 @@ public class Main {
             System.out.println("Меню. Выберите действие:");
             System.out.println("1 - категория товара");
             System.out.println("2 - мои покупки");
+            System.out.println("3 - выход");
 
             Scanner scanner;
            try {
@@ -76,6 +77,9 @@ public class Main {
                     case (2):
                             System.out.println("Ваша корзина" + new Basket(products));
                         break;
+                    case (3):
+                        System.out.println("Спасибо за покупку");
+                        return;
                     default:
                         System.out.println("Некорректный ввод.");
                         break;
