@@ -14,6 +14,7 @@ public class Pilot {
     public String getRank() {
         return rank;
     }
+
     public Pilot(String name, int age, String rank) {
         this.name = name;
         if (age >= 25 && age <= 50) {
@@ -23,8 +24,9 @@ public class Pilot {
             System.out.println("Пилот не допущен");
             this.rank = rank;
         }
-
+    }
         // метод, который сажает пилота на самолет
+
         public void go(Airplan airplan){
             this.airplan = airplan;
             this.airplan.setPilot(this);
@@ -34,4 +36,3 @@ public class Pilot {
             this.airplan.go();  // вызываем метод из класса Airplan
         }
     }
-}

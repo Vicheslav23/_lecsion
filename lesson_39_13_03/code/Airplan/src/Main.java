@@ -7,8 +7,9 @@ public class Main {
         Airplan airplan1 = new Airplan(36);
 
         Pilot pilot1 = new Pilot("",29,"2");
+
         pilot1.go(airplan1);
-        System.out.println("Водитель автобуса: " + airplan1.getpilot().name);
+        System.out.println("Пилот аэробуса: " + airplan1.getpilot().name);
 
 
     }
