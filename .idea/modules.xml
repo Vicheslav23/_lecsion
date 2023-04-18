@@ -42,6 +42,7 @@
       <module fileurl="file://$PROJECT_DIR$/lesson_51/code/bankomat/bankomat.iml" filepath="$PROJECT_DIR$/lesson_51/code/bankomat/bankomat.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_56_05_04/code/binarySearch/binarySearch.iml" filepath="$PROJECT_DIR$/lesson_56_05_04/code/binarySearch/binarySearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_44_20_03/code/binary_search/binary_search.iml" filepath="$PROJECT_DIR$/lesson_44_20_03/code/binary_search/binary_search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_57_11_04/code/bubbleSort/bubbleSort.iml" filepath="$PROJECT_DIR$/lesson_57_11_04/code/bubbleSort/bubbleSort.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_38_10_03/code/bus/bus.iml" filepath="$PROJECT_DIR$/lesson_38_10_03/code/bus/bus.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_33_02_03/code/code.iml" filepath="$PROJECT_DIR$/lesson_33_02_03/code/code.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_32_01_03/code/coffee_mashine/coffee_mashine.iml" filepath="$PROJECT_DIR$/lesson_32_01_03/code/coffee_mashine/coffee_mashine.iml" />
@@ -50,6 +51,7 @@
       <module fileurl="file://$PROJECT_DIR$/lesson_46_22_03/code/comparing_Dog/comparing_Dog.iml" filepath="$PROJECT_DIR$/lesson_46_22_03/code/comparing_Dog/comparing_Dog.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_46_22_03/code/comparing_Human/comparing_Human.iml" filepath="$PROJECT_DIR$/lesson_46_22_03/code/comparing_Human/comparing_Human.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_46_22_03/code/comparing_cotrudnikov/comparing_cotrudnikov.iml" filepath="$PROJECT_DIR$/lesson_46_22_03/code/comparing_cotrudnikov/comparing_cotrudnikov.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_57_11_04/code/consul_substring/consul_substring.iml" filepath="$PROJECT_DIR$/lesson_57_11_04/code/consul_substring/consul_substring.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_54_03_04/code/custom_exception/custom_exception.iml" filepath="$PROJECT_DIR$/lesson_54_03_04/code/custom_exception/custom_exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_53_31_03/code/date_time/date_time.iml" filepath="$PROJECT_DIR$/lesson_53_31_03/code/date_time/date_time.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_37_09_03/code/employee_address/employee_address.iml" filepath="$PROJECT_DIR$/lesson_37_09_03/code/employee_address/employee_address.iml" />
@@ -63,6 +65,16 @@
       <module fileurl="file://$PROJECT_DIR$/lesson_44_20_03/code/home_treeSet/home_treeSet.iml" filepath="$PROJECT_DIR$/lesson_44_20_03/code/home_treeSet/home_treeSet.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_49_27_03/code/unit_testing/home_unit_texting/home_unit_texting.iml" filepath="$PROJECT_DIR$/lesson_49_27_03/code/unit_testing/home_unit_texting/home_unit_texting.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_54_03_04/code/homework/homework.iml" filepath="$PROJECT_DIR$/lesson_54_03_04/code/homework/homework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_59_17_04/code/homework_/homework_.iml" filepath="$PROJECT_DIR$/lesson_59_17_04/code/homework_/homework_.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_57_11_04/code/homework_1/homework_1.iml" filepath="$PROJECT_DIR$/lesson_57_11_04/code/homework_1/homework_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_57_11_04/code/homework_2/homework_2.iml" filepath="$PROJECT_DIR$/lesson_57_11_04/code/homework_2/homework_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_57_11_04/code/homework_3/homework_3.iml" filepath="$PROJECT_DIR$/lesson_57_11_04/code/homework_3/homework_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_57_11_04/code/homework_4/homework_4.iml" filepath="$PROJECT_DIR$/lesson_57_11_04/code/homework_4/homework_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_59_17_04/code/homework_59/homework_59.iml" filepath="$PROJECT_DIR$/lesson_59_17_04/code/homework_59/homework_59.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_57_12_04/code/homework_CountLetters/homework_CountLetters.iml" filepath="$PROJECT_DIR$/lesson_57_12_04/code/homework_CountLetters/homework_CountLetters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_57_11_04/code/homework_Evgeny/homework_Evgeny.iml" filepath="$PROJECT_DIR$/lesson_57_11_04/code/homework_Evgeny/homework_Evgeny.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_57_12_04/code/homework_Evgeny-/homework_Evgeny-.iml" filepath="$PROJECT_DIR$/lesson_57_12_04/code/homework_Evgeny-/homework_Evgeny-.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_57_12_04/homework_ReverseWords/homework_ReverseWords.iml" filepath="$PROJECT_DIR$/lesson_57_12_04/homework_ReverseWords/homework_ReverseWords.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_36_07_03/code/human/human.iml" filepath="$PROJECT_DIR$/lesson_36_07_03/code/human/human.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_41_15_03/code/interface_example/interface_example.iml" filepath="$PROJECT_DIR$/lesson_41_15_03/code/interface_example/interface_example.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_51/code/internet-shop/internet-shop.iml" filepath="$PROJECT_DIR$/lesson_51/code/internet-shop/internet-shop.iml" />
@@ -76,16 +88,21 @@
       <module fileurl="file://$PROJECT_DIR$/lesson_28_23_02/lesson_28_23_02.iml" filepath="$PROJECT_DIR$/lesson_28_23_02/lesson_28_23_02.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_29_24_02/lesson_29_24_02.iml" filepath="$PROJECT_DIR$/lesson_29_24_02/lesson_29_24_02.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_30_27_02/lesson_30_27_02.iml" filepath="$PROJECT_DIR$/lesson_30_27_02/lesson_30_27_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_57_13_04/lesson_57_13_04.iml" filepath="$PROJECT_DIR$/lesson_57_13_04/lesson_57_13_04.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_49_27_03/code/unit_testing/math_methods/math_methods.iml" filepath="$PROJECT_DIR$/lesson_49_27_03/code/unit_testing/math_methods/math_methods.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_42_16_03/code/money/money.iml" filepath="$PROJECT_DIR$/lesson_42_16_03/code/money/money.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_41_15_03/code/obgect_equal_example/obgect_equal_example.iml" filepath="$PROJECT_DIR$/lesson_41_15_03/code/obgect_equal_example/obgect_equal_example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_58_14_04/code/our_functional_interface/our_functional_interface.iml" filepath="$PROJECT_DIR$/lesson_58_14_04/code/our_functional_interface/our_functional_interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_36_07_03/code/pfone/pfone.iml" filepath="$PROJECT_DIR$/lesson_36_07_03/code/pfone/pfone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_58_14_04/code/predefined_functional_interfaces/predefined_functional_interfaces.iml" filepath="$PROJECT_DIR$/lesson_58_14_04/code/predefined_functional_interfaces/predefined_functional_interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_54_03_04/code/printDigits/printDigits.iml" filepath="$PROJECT_DIR$/lesson_54_03_04/code/printDigits/printDigits.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_50_28_03/code/project_internet_shop/project_internet_shop.iml" filepath="$PROJECT_DIR$/lesson_50_28_03/code/project_internet_shop/project_internet_shop.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_29_24_02/random_duplicate/random_duplicate.iml" filepath="$PROJECT_DIR$/lesson_29_24_02/random_duplicate/random_duplicate.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_39_13_03/code/shape/shape.iml" filepath="$PROJECT_DIR$/lesson_39_13_03/code/shape/shape.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_27_22_02/sq_equal/sq_equal.iml" filepath="$PROJECT_DIR$/lesson_27_22_02/sq_equal/sq_equal.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_43_17_03/code/static_example/static_example.iml" filepath="$PROJECT_DIR$/lesson_43_17_03/code/static_example/static_example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_59_17_04/code/streams/streams.iml" filepath="$PROJECT_DIR$/lesson_59_17_04/code/streams/streams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_57_11_04/code/stringbuilders/stringbuilders.iml" filepath="$PROJECT_DIR$/lesson_57_11_04/code/stringbuilders/stringbuilders.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_34_ 03_.03/code/todo_list/todo_list.iml" filepath="$PROJECT_DIR$/lesson_34_ 03_.03/code/todo_list/todo_list.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_38_10_03/code/triangle/triangle.iml" filepath="$PROJECT_DIR$/lesson_38_10_03/code/triangle/triangle.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_34_ 03_.03/code/two_group_random/two_group_random.iml" filepath="$PROJECT_DIR$/lesson_34_ 03_.03/code/two_group_random/two_group_random.iml" />

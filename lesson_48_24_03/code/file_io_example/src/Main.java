@@ -16,9 +16,9 @@ public class Main {
 
         createFile(path, fileName); // создаем файл
         String data = "Я помню чудное мгновенье...";
-        writeDataInFile(path, fileName, data); // пишем мданные в файл
+        writeDataInFile(path, fileName, data); // пишем данные в файл
         String d = readDataFromFile(path, fileName);
-        System.out.println(data);
+        System.out.println(d);
     }
     //
     private static void createFile(String path, String fileName) {
